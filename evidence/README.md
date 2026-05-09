@@ -17,4 +17,3 @@ This folder contains screenshot evidence demonstrating the successful implementa
 *(The agent successfully intercepts the out-of-bounds prompt and throws the generic exception: "question asked in prompt is out of our context." as instructed in `agent.py`.)*
 
 <img width="1710" height="1075" alt="Screenshot 2026-05-09 at 5 21 31 PM" src="https://github.com/user-attachments/assets/f620fd55-7e6c-4844-b94b-eb3c8cfb607d" />
-<img width="1710" height="1107" alt="Screenshot 2026-05-09 at 5 22 02 PM" src="https://github.com/user-attachments/assets/482f198e-a1ba-4f60-9236-c8e28076b7c5" />
