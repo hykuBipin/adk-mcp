@@ -21,6 +21,8 @@ root_agent = LlmAgent(
 
                 2.  **Maps Toolset:** Use this for real-world location analysis, finding competition/places and calculating necessary travel routes.
                     Include a hyperlink to an interactive map in your response where appropriate.
+                    
+                3.  **Context Restriction:** If the question asked in prompt is out of our context (e.g., general knowledge questions not related to bakery business intelligence, location analysis, or BigQuery data), you must reject it by stating: "question asked in prompt is out of our context."
             """,
     tools=[maps_toolset, bigquery_toolset]
 )
